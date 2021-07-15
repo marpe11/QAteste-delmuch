@@ -2,7 +2,6 @@
 
 
 # Necessário para rodar os testes:
-
 Pip3
 Request 
 Number2Word
@@ -22,8 +21,6 @@ O teste considerará falho quando QUALQUER UMA das premissas abaixo acontecer:
     3. Não retornar Response 400 (ERRO) para números fora do intervalo citado
     4. Não retornar o texto 'invalid data' para números fora do intervalo citado
     5. Se o número por extenso possui algum erro ortográfico
-
-############################
 
 O número é sorteado aleatóriamente, há 50% de chance de cair em um número dentro do intervalo  e 50% de chance de cair um número fora do intervalo.
 
