@@ -1,0 +1,33 @@
+REQUEST DEVERIA SER: menos oito mil quinhentos e dezessete, PORÉM RETORNOU: menos oito mil quinhentos e dezassete
+REQUEST DEVERIA SER: menos sete mil quatrocentos e dezenove, PORÉM RETORNOU: menos sete mil quatrocentos e dezanove
+REQUEST DEVERIA SER: oito mil oitocentos e dezenove, PORÉM RETORNOU: oito mil oitocentos e dezanove
+REQUEST DEVERIA SER: menos dois mil cento e dezenove, PORÉM RETORNOU: menos dois mil cento e dezanove
+REQUEST DEVERIA SER: quatro mil e, PORÉM RETORNOU: quatro mil
+REQUEST DEVERIA SER: menos nove mil quatrocentos e dezenove, PORÉM RETORNOU: menos nove mil quatrocentos e dezanove
+REQUEST DEVERIA SER: sete mil e dezessete, PORÉM RETORNOU: sete mil e dezassete
+REQUEST DEVERIA SER: cinco mil trezentos e dezessete, PORÉM RETORNOU: cinco mil trezentos e dezassete
+REQUEST DEVERIA SER: quinhentos e dezenove, PORÉM RETORNOU: quinhentos e dezanove
+REQUEST DEVERIA SER: três mil trezentos e dezesseis, PORÉM RETORNOU: três mil trezentos e dezasseis
+REQUEST DEVERIA SER: menos seiscentos e dezesseis, PORÉM RETORNOU: menos seiscentos e dezasseis
+REQUEST DEVERIA SER: menos cinco mil novecentos e dezesseis, PORÉM RETORNOU: menos cinco mil novecentos e dezasseis
+REQUEST DEVERIA SER: sete mil seiscentos e dezenove, PORÉM RETORNOU: sete mil seiscentos e dezanove
+REQUEST DEVERIA SER: sete mil duzentos e dezesseis, PORÉM RETORNOU: sete mil duzentos e dezasseis
+REQUEST DEVERIA SER: sete mil quatrocentos e dezessete, PORÉM RETORNOU: sete mil quatrocentos e dezassete
+REQUEST DEVERIA SER: mil setecentos e dezessete, PORÉM RETORNOU: mil setecentos e dezassete
+REQUEST DEVERIA SER: menos oito mil setecentos e dezessete, PORÉM RETORNOU: menos oito mil setecentos e dezassete
+REQUEST DEVERIA SER: seis mil quatrocentos e dezesseis, PORÉM RETORNOU: seis mil quatrocentos e dezasseis
+REQUEST DEVERIA SER: menos quinhentos e dezesseis, PORÉM RETORNOU: menos quinhentos e dezasseis
+REQUEST DEVERIA SER: três mil setecentos e dezessete, PORÉM RETORNOU: três mil setecentos e dezassete
+REQUEST DEVERIA SER: dois mil e e cem, PORÉM RETORNOU: dois mil e cem
+REQUEST DEVERIA SER: menos oito mil setecentos e dezenove, PORÉM RETORNOU: menos oito mil setecentos e dezanove
+REQUEST DEVERIA SER: menos nove mil quinhentos e dezesseis, PORÉM RETORNOU: menos nove mil quinhentos e dezasseis
+REQUEST DEVERIA SER: menos dois mil cento e dezessete, PORÉM RETORNOU: menos dois mil cento e dezassete
+REQUEST DEVERIA SER: seis mil trezentos e dezessete, PORÉM RETORNOU: seis mil trezentos e dezassete
+REQUEST DEVERIA SER: menos dois mil cento e dezessete, PORÉM RETORNOU: menos dois mil cento e dezassete
+REQUEST DEVERIA SER: seis mil cento e dezessete, PORÉM RETORNOU: seis mil cento e dezassete
+REQUEST DEVERIA SER: oitocentos e dezesseis, PORÉM RETORNOU: oitocentos e dezasseis
+REQUEST DEVERIA SER: seis mil setecentos e dezesseis, PORÉM RETORNOU: seis mil setecentos e dezasseis
+REQUEST DEVERIA SER: nove mil cento e dezessete, PORÉM RETORNOU: nove mil cento e dezassete
+REQUEST DEVERIA SER: menos nove mil oitocentos e dezessete, PORÉM RETORNOU: menos nove mil oitocentos e dezassete
+REQUEST DEVERIA SER: menos sete mil quinhentos e dezesseis, PORÉM RETORNOU: menos sete mil quinhentos e dezasseis
+O NÚMERO DEVERIA SER: dez mil, PORÉM RETORNOU: ten thousand
