@@ -41,6 +41,6 @@ O teste gera um arquivo chamado erro.txt e erroUS.txt que reúnem os erros encon
 API em pt-BR: Foi encontrado alguns erros gramáticais dentro da resposta: 'dezassete', 'dezanove' e 'dezasseis''. O número 10.000 está retornando ''then thousend''ao invés de dez mil. 
 
 
-API em en-US: Está retornando o resultado errado nas consultas fora de intervalo, ao invés de retornar erro 400 está retornando erro 401.  
+API em en-US: Está retornando o response errado nas consultas fora de intervalo, ao invés de retornar código 400 está retornando erro 401.  
 
 
