@@ -1,1 +1,0 @@
-# QAteste-delmuch
