@@ -1,9 +1,6 @@
 ![Alt Text](https://media.giphy.com/media/ihDkhpyQMZiwOBwI9Z/giphy.gif)
 
 
-
-
-
 # Necessário para rodar os testes:
 
 Pip3
@@ -11,11 +8,8 @@ Request
 Number2Word
 
 Utilizando o instalador de pacotes python, o PIP, utilize os seguintes comandos
-
 pip installs request
 pip installs number2words
-
-##########################
 
 # Premissas do testes
 
