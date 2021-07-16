@@ -8,7 +8,7 @@ Number2Word
 
 Utilizando o instalador de pacotes python, o PIP, utilize os seguintes comandos
 
-pip installs request
+pip installs request/ 
 pip installs number2words
 
 ##########################
