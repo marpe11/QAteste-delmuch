@@ -92,7 +92,7 @@ for i in range(testes_a_realizar):
                 print('Numero testado:{}\n'.format(numero_testado))
                 print('##############\n' * 2)
                 retorno = (
-                    f'O NÚMERO DEVERIA SER: {resultado_esperado}, PORÉM RETORNOU: {teste_resposta_resultado}')
+                    f'Número testado:{numero_testado} - O NÚMERO DEVERIA SER: {resultado_esperado}, PORÉM RETORNOU: {teste_resposta_resultado}')
                 print(retorno)
                 print('Testes aprovados:{}'.format(numero_de_testes_aprovados))
                 print('Testes reprovados:{}'.format(
@@ -148,8 +148,9 @@ for i in range(testes_a_realizar):
             print('##############\n' * 2)
             print('TESTE COM PROBLEMA, RESULTADO NÃO ESPERADO ACONTECEU')
             print('##############\n' * 2)
-            print('REQUEST DEVERIA SER: {}, PORÉM RETORNOU: {}'.format(
-                teste_resposta_api_400, request))
+            retorno = (
+                    f'Número testado:{numero_testado} - O response deveria retornar: {teste_resposta_api_400}, PORÉM RETORNOU: {request}')
+            print(retorno)  
             print('Testes aprovados:{}'.format(numero_de_testes_aprovados))
             print('Testes reprovados:{}'.format(numero_de_testes_reprovados))
             print('\n' * 3)

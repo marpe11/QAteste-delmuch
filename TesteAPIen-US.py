@@ -31,18 +31,19 @@ print('#############')
 numero_de_testes = 0
 numero_de_testes_aprovados = 0
 numero_de_testes_reprovados = 0
+
+## NÚMERO DE TESTES A SEREM REALIZADOS
 testes_a_realizar = 100
 
 
 for i in range(testes_a_realizar):
     numero_testado = randint(-20000, 20000)
     try:
-        request = requests.get(
-            'http://challengeqa.staging.devmuch.io/{}'.format(numero_testado))
+        request = requests.get('http://challengeqa.staging.devmuch.io/en/{}'.format(numero_testado))
         request_data = request.json()
         resultado_esperado = escreveNum(numero_testado)
 
-        teste_resposta_resultado = request_data['extenso']
+        teste_resposta_resultado = request_data['full']
         teste_resposta_api_200 = '<Response [200]>'
         teste_resposta_api_400 = '<Response [400]>'
 
@@ -62,7 +63,7 @@ for i in range(testes_a_realizar):
                 print('Resultado Esperado: {}'.format(resultado_esperado))
                 print('Resposta do servidor: {}'.format(request))
                 print('Resultado da Consulta: {}'.format(
-                    request_data['extenso']))
+                    request_data['full']))
                 print('#############')
                 print('###############')
                 print('## TESTE APROVADO! ##')
@@ -100,7 +101,7 @@ for i in range(testes_a_realizar):
                     numero_de_testes_reprovados))
                 print('\n' * 3)
 
-                with open(arquivo+"/erros.txt", "a") as file:
+                with open(arquivo+"/errosen-US.txt", "a") as file:
                     file.write("%s\n" % retorno)
 
             else:
@@ -109,7 +110,7 @@ for i in range(testes_a_realizar):
                 print('Resultado Esperado: {}'.format(resultado_esperado))
                 print('Resposta do servidor: {}'.format(request))
                 print('Resultado da Consulta: {}'.format(
-                    request_data['extenso']))
+                    request_data['full']))
                 print('#############')
                 print('###############')
                 print('### PROBLEMA IDENTIFICADO ###')
@@ -133,7 +134,7 @@ for i in range(testes_a_realizar):
             print('Número Testado: {}'.format(numero_testado))
             print('Resultado Esperado: {}'.format(resultado_esperado))
             print('Resposta do servidor: {}'.format(request))
-            print('Resultado da Consulta: {}'.format(request_data['extenso']))
+            print('Resultado da Consulta: {}'.format(request_data['full']))
             print('###############')
             print('## TESTE APROVADO! ##')
             print(
@@ -149,11 +150,14 @@ for i in range(testes_a_realizar):
             print('##############\n' * 2)
             print('TESTE COM PROBLEMA, RESULTADO NÃO ESPERADO ACONTECEU')
             print('##############\n' * 2)
-            print('REQUEST DEVERIA SER: {}, PORÉM RETORNOU: {}'.format(
-                teste_resposta_api_400, request))
+            retorno = (
+                    f'Número testado:{numero_testado} - O response deveria retornar: {teste_resposta_api_400}, PORÉM RETORNOU: {request}')
+            print(retorno)
             print('Testes aprovados:{}'.format(numero_de_testes_aprovados))
             print('Testes reprovados:{}'.format(numero_de_testes_reprovados))
             print('\n' * 3)
+            with open(arquivo+"/errosen-US.txt", "a") as file:
+                    file.write("%s\n" % retorno)
 
         elif teste_resposta_resultado != 'Invalid data':
             numero_de_testes += 1
@@ -180,6 +184,4 @@ percent_acerto = (numero_de_testes_aprovados/numero_de_testes)*100
 print("O numéro de acertos foi de: {}%".format(percent_acerto))
 percent_erro = (numero_de_testes_reprovados/numero_de_testes)*100
 print("O numéro de erros foi de: {}%".format(percent_erro))
-print('Foi gerado um arquivo com nome de erro.txt para uma melhor análise dos erros apontados')
-
-
+print('Foi gerado um arquivo com nome de erroen-US.txt para uma melhor análise dos erros apontados')
