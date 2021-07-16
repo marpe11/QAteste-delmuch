@@ -2,14 +2,14 @@
 
 # Necessário para rodar os testes:
 
-Pip3,
-Request, 
-Number2Word
+- Pip3
+- Request 
+- Number2Word
 
 Utilizando o instalador de pacotes python, o PIP, utilize os seguintes comandos
 
-pip installs request/ 
-pip installs number2words
+- pip installs request
+- pip installs number2words
 
 ##########################
 
@@ -25,8 +25,6 @@ Ao passar um número dentro do intervalo [-10000, 10000], deverá retornar o nú
     - 4. Não retornar o texto 'invalid data' para números fora do intervalo citado
     - 5. Se o número por extenso possui algum erro ortográfico
 
-
-.
 
 
 # Apontamentos
