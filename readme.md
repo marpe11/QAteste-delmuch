@@ -18,6 +18,9 @@ Utilizando o instalador de pacotes python, o PIP, utilize os seguintes comandos
 Devemos verificar os retornos da API fornecida. Tanto o resultado em JSON quanto o Response.
 Ao passar um número dentro do intervalo [-10000, 10000], deverá retornar o número escrito por extenso, e exibir uma mensagem de sucesso(Response 200)
 
+Executar o arquivo com o comando: python TesteAPIpt-BR.py / para o teste na API em português
+Executar o arquivo com o comando: python TesteAPIen-US.py / para o teste na API em inglês
+
 ## O teste considerará falho quando QUALQUER UMA das premissas abaixo acontecer: 
     - 1. Retornar algo diferente de (Response 200) para números dentro do intervalo citado
     - 2. Retornar Response 200 para números de FORA do intervalo citado
